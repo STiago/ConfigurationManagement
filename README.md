@@ -30,6 +30,14 @@ If you want return to your machine you only need execute ```exit``` and if you w
 
 ### Vagrantfile
 
+##### Virtual Networking
+
+Now we will uncomment the following line in our Vagrantfile:
+
+```config.vm.network "private_network", ip: "192.168.33.10" ```
+
+And finally we will run using ```vagrant reload```
+
 #### References:
 
 - Vagrant boxes: http://www.vagrantbox.es/
